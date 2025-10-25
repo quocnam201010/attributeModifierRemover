@@ -2,3 +2,9 @@ name: attributeModifierRemover
 version: '1.0-SNAPSHOT'
 main: dueris.attributeModifierRemover.AttributeModifierRemover
 api-version: '1.21'
+
+commands:
+  attributeremove:
+    description: Remove an attribute modifier from a player (player or command block)
+    usage: /<command> <player> <attribute> <id|ALL>
+    aliases: [armodrem]
